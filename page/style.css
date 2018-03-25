@@ -1,0 +1,54 @@
+body{
+  background: rgb(252, 131, 131);
+}
+
+.container{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 2%;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 1em;
+  font-size: 3em;
+}
+h2{
+  text-align: center;
+  border: 3px solid black; 
+  font-size: 40px;
+
+}
+.foundation-skills{
+  font-size: 30px;
+  padding-left: 1em;
+}
+.foundation,.orientation,.project{
+  border: 3px solid black;  
+}
+ul.skills {
+  list-style-type: circle;
+  font-size: 17px;
+  padding-left: 5em;
+}
+
+.h1li{
+  padding-left: 2em;
+  font-size: 20px;
+}
+.foundation{
+  grid-column: 1;
+  grid-row: 1;
+  
+}
+
+.orientation{
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.project{
+  grid-column: 3;
+  grid-row: 1;
+}
