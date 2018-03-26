@@ -1,0 +1,23 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "link collection for GF final exam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balintnem3th/Final-Exam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balintnem3th/Final-Exam/issues"
+  },
+  "homepage": "https://github.com/balintnem3th/Final-Exam#readme",
+  "devDependencies": {
+    "tape": "^4.9.0"
+  }
+}
