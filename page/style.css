@@ -1,27 +1,31 @@
 body{
-  background: rgb(252, 131, 131);
+  background: rgb(27, 224, 119);
 }
 
 .container{
   display: grid;
   grid-template-columns:1fr 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-rows: auto auto;
   grid-gap: 2%;
+  grid-row-gap: 1em;
 }
 
 h1{
   text-align: center;
-  padding-bottom: 1em;
-  font-size: 3em;
+  /* padding-bottom: 1em; */
+  font-size: 2em;
 }
 h2{
   text-align: center;
   border: 3px solid black; 
-  font-size: 40px;
+  font-size: 25px;
+}
 
+.subh2{
+  border: 0px;
 }
 .foundation-skills{
-  font-size: 30px;
+  font-size: 15px;
   padding-left: 1em;
 }
 .foundation,.orientation,.project{
@@ -29,13 +33,15 @@ h2{
 }
 ul.skills {
   list-style-type: circle;
-  font-size: 17px;
+  font-size: 16px;
   padding-left: 5em;
+  font-weight: normal;
 }
 
 .h1li{
   padding-left: 2em;
   font-size: 20px;
+  font-weight: bold;
 }
 .foundation{
   grid-column: 1;
@@ -51,4 +57,14 @@ ul.skills {
 .project{
   grid-column: 3;
   grid-row: 1;
+}
+
+.technical{
+  grid-column: 1/4;
+  grid-row: 2;
+  border: 3px solid black;  
+}
+
+a{
+  padding-left: 3.9em;
 }
